@@ -4,7 +4,7 @@
   "description": "Remove recordings with date range.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --trace-deprecation index.js",
     "test": "mocha"
   },
   "author": "Katsumi Takahashi",
@@ -12,7 +12,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "moment": "^2.24.0",
-    "twilio": "^3.39.5"
+    "twilio": "^5.8.0"
   },
   "devDependencies": {
     "mocha": "^7.2.0",
@@ -29,4 +29,6 @@
     "url": "https://github.com/mobilebiz/twilio-remove-recordings/issues"
   },
   "homepage": "https://github.com/mobilebiz/twilio-remove-recordings#readme"
+,
+  "packageManager": "yarn@1.22.22"
 }
